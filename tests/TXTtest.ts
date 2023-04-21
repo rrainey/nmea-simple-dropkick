@@ -14,7 +14,7 @@ describe("TXT", (): void => {
     packet.should.have.property("message", "txbuf alloc");
     packet.should.have.property("totalNumber", 1);
     packet.should.have.property("thisNumber", 1);
-    packet.should.have.property("id", 1);
+    packet.should.have.property("id", 0);
   });
 
 });
